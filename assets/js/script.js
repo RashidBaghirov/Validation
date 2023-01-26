@@ -55,13 +55,13 @@ function Checkpass(){
 
 function Email(){
   let name=document.getElementById("email").value;
-  let y=name.includes("@");
+  let y=name.includes("@gmail.com");
   let text;
   if(y==true){
     return true;
   }
   else{
-    text="Email must also have an @ symbol";
+    text="The email must also contain the @gmail.com combination";
     document.getElementById("demorr").innerHTML = text;
     return false;
   }
