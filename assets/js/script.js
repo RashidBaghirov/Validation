@@ -48,7 +48,7 @@ function Checkpass(){
   }
   else{
     text="Password must be more than 8 elements";
-    document.getElementById("demorrr").innerHTML = text;
+    document.getElementById("demorr").innerHTML = text;
     return false;
   }
 }
@@ -62,7 +62,7 @@ function Email(){
   }
   else{
     text="The email must also contain the @gmail.com combination";
-    document.getElementById("demorr").innerHTML = text;
+    document.getElementById("demorrr").innerHTML = text;
     return false;
   }
 }
