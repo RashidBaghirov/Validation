@@ -7,7 +7,7 @@ let x=Surname();
 let z=Checkpass();
 let f=Email();
 if(y==true && x==true && z==true && f==true){
-  window.location.href="https://www.google.com"
+  window.location.href="https://www.google.com";
 }
 }
 
@@ -16,6 +16,8 @@ function Name(){
   let y=name.length;
   let text;
   if(y>3){
+    text=" ";
+    document.getElementById("demo").innerHTML = text;
     return true;
   }
   else{
@@ -30,6 +32,8 @@ function Surname(){
   let y=name.length;
   let text;
   if(y>3){
+    text=" ";
+    document.getElementById("demor").innerHTML = text;
     return true;
   }
   else{
@@ -44,11 +48,13 @@ function Checkpass(){
   let y=name.length;
   let text;
   if(y>7){
+    text=" ";
+    document.getElementById("demorrr").innerHTML = text;
     return true;
   }
   else{
     text="Password must be more than 8 elements";
-    document.getElementById("demorr").innerHTML = text;
+    document.getElementById("demorrr").innerHTML = text;
     return false;
   }
 }
@@ -58,13 +64,16 @@ function Email(){
   let y=name.includes("@gmail.com");
   let text;
   if(y==true){
+    text=" ";
+    document.getElementById("demorr").innerHTML = text;
     return true;
   }
   else{
     text="The email must also contain the @gmail.com combination";
-    document.getElementById("demorrr").innerHTML = text;
+    document.getElementById("demorr").innerHTML = text;
     return false;
   }
+ 
 }
 
 
