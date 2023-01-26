@@ -5,15 +5,24 @@
 }
 
 body {
-  height: 100vh;
+  padding: 100px;
   background-image: url(../image/galaxy-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
-body .input-group-text {
+body .register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .register form {
+  width: 40%;
+}
+body .register form .input-group-text {
   background-color: rgba(165, 95, 165, 0.664) !important;
   width: 100px;
 }
-body .form-control {
+body .register form .form-control {
   background-color: rgba(165, 95, 165, 0.664) !important;
 }/*# sourceMappingURL=main.css.map */

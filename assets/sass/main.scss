@@ -6,16 +6,28 @@
 
 
 body{
-    height: 100vh;
+    .register{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        form{
+
+            width: 40%;
+            .input-group-text{
+                background-color: rgba(165, 95, 165, 0.664) !important;
+                width: 100px;
+            }
+            .form-control{
+                background-color: rgba(165, 95, 165, 0.664) !important;
+            }
+        }
+    }
+    padding: 100px;
     background-image: url(../image/galaxy-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    .input-group-text{
-        background-color: rgba(165, 95, 165, 0.664) !important;
-        width: 100px;
-    }
-    .form-control{
-        background-color: rgba(165, 95, 165, 0.664) !important;
-    }
+    overflow: hidden;
+
    
 }
